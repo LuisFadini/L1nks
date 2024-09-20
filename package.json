@@ -10,13 +10,14 @@
   },
   "dependencies": {
     "@ark-ui/solid": "^3.12.1",
-    "@fontsource/inter": "^5.1.0",
+    "@fontsource-variable/inter": "^5.1.0",
     "solid-js": "^1.8.20"
   },
   "devDependencies": {
     "@iconify-json/ph": "^1.2.0",
     "@types/node": "^22.5.5",
     "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
     "fluid-tailwind": "^1.0.3",
     "postcss": "^8.4.47",
     "tailwind-scrollbar": "^3.1.0",
@@ -25,5 +26,6 @@
     "unplugin-icons": "^0.19.3",
     "vite": "^5.4.1",
     "vite-plugin-solid": "^2.10.2"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
