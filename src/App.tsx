@@ -17,9 +17,10 @@ function App() {
       <div class="flex flex-col min-h-screen max-w-[100vw]">
         <main class="flex flex-col items-center w-full h-full p-5 flex-grow">
           <Photo
-            photoUrl="/foto.png"
+            photoUrl="/photo.jpg"
             name="Luís Otávio"
             shortName="LO"
+            imgSize={150}
             class="mb-2"
           />
           <h3 class="text-xl text-center">Olá, eu sou o</h3>
